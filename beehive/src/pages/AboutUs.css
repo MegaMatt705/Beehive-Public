@@ -1,0 +1,114 @@
+.button1{
+    text-align: center;
+    background-color: rgb(80, 4, 80);
+    position: absolute;
+    left: 40%;
+    top: 35%;
+    border-radius: 12px;
+    height: 8%;
+    width: 23%;
+    font-size: 30px;
+    border-color: black;
+    transition-duration: 0.4s;
+    font-family: monospace;
+}
+.button2{
+    text-align: center;
+    background-color: rgb(80, 4, 80);
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    border-radius: 12px;
+    height: 8%;
+    width: 23%;
+    font-size: 30px;
+    border-color: black;
+    transition-duration: 0.4s;
+    font-family: monospace;
+}
+.button3{
+    text-align: center;
+    background-color: rgb(80, 4, 80);
+    position: absolute;
+    left: 40%;
+    top: 55%;
+    border-radius: 12px;
+    height: 8%;
+    width: 23%;
+    font-size: 30px;
+    border-color: black;
+    transition-duration: 0.4s;
+    font-family: monospace;
+}
+.button4{
+    text-align: center;
+    background-color: rgb(80, 4, 80);
+    position: absolute;
+    left: 40%;
+    top: 65%;
+    border-radius: 12px;
+    height: 8%;
+    width: 23%;
+    font-size: 30px;
+    border-color: black;
+    transition-duration: 0.4s;
+    font-family: monospace;
+}
+.button5{
+    text-align: center;
+    background-color: rgb(80, 4, 80);
+    position: absolute;
+    left: 40%;
+    top: 75%;
+    border-radius: 12px;
+    height: 8%;
+    width: 23%;
+    font-size: 30px;
+    border-color: black;
+    transition-duration: 0.4s;
+    font-family: monospace;
+}
+.button6{
+    text-align: center;
+    background-color: rgb(80, 4, 80);
+    position: absolute;
+    left: 40%;
+    top: 85%;
+    border-radius: 12px;
+    height: 8%;
+    width: 23%;
+    font-size: 30px;
+    border-color: black;
+    transition-duration: 0.4s;
+    font-family: monospace;
+}
+.button1:hover{
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: purple; 
+    color: white;
+}
+.button2:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   background-color: purple; 
+   color: white;
+}
+.button3:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   background-color: purple; 
+   color: white;
+}
+.button4:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   background-color: purple; 
+   color: white;
+}
+.button5:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   background-color: purple; 
+   color: white;
+}
+.button6:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   background-color: purple; 
+   color: white;
+}

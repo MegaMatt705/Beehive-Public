@@ -1,0 +1,189 @@
+/* Settings.css */
+  h1 {
+    font-size: 24px;
+    margin: 10px;
+  }
+  
+  .dark-mode-toggle {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 18px;
+  }
+  
+  .dark-mode-toggle label {
+    margin-right: 10px;
+  }
+  
+  .dark-mode-toggle input {
+    transform: scale(2); 
+  }
+  .dark-mode .container {
+    background-color: #222; 
+    color: #fff; 
+  }
+
+  .dark-mode .job-l {
+    background-color: #222; 
+    color: #fff; 
+  }
+ 
+  .dark-mode {
+    background-color: #222; 
+    color: #fff; 
+  }
+
+  .switch {
+    position: absolute;
+    left:40%;
+    display: inline-block;
+    width: 77px;
+    height: 34px;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: -7.5px;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: green;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px black;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+:root {
+  --brand-bg-gradient: linear-gradient(
+    to bottom, 
+    var(--brand-bg1), 
+    var(--brand-bg2)
+  );
+}
+
+
+.new-settings {
+  display: grid;
+  gap: .25rem;
+  place-content: center;
+  padding: 3rem;
+}
+
+.settings-form {
+  max-width: 89vw;
+  display: grid;
+  gap: 3rem 6rem;
+  grid-template-columns: 
+    repeat(auto-fit, minmax(min(10ch, 100%), 35ch));
+  align-items: flex-start;
+}
+
+section {
+  display: grid;
+  gap: 1.5rem;
+}
+
+header {
+  display: grid;
+  gap: .25rem;
+}
+
+fieldset {
+  border: 1px solid lch(25 0 0);
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1px;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: box-shadow .3s ease;
+}
+
+.fieldset-item {
+
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: 1.5rem;
+
+  padding-block: 1rem;
+  padding-inline: 1.5rem;
+
+  @media (width >= 540px) {
+    grid-template-columns: 6rem 1fr;
+    gap: .5rem;
+    padding-block: 1.5rem;
+    padding-inline: 0 3rem;
+  }
+
+  &:focus-within {
+
+    & svg {
+      fill: white;
+    }
+
+    & picture {
+      clip-path: circle(50%);
+    }
+  }
+
+  & > picture {
+    block-size: 3rem;
+    inline-size: 3rem;
+    clip-path: circle(40%);
+    display: inline-grid;
+    place-content: center;
+    background: lch(20 0 0) fixed;
+  }
+
+  & svg {
+    fill: lch(75 0 0);
+    block-size: 1.5rem;
+  }
+
+  & > :is(picture) {
+    place-self: center;
+  }
+}
+
+small {
+  color: lch(75 0 0);
+  line-height: 1.5;
+}
+
+

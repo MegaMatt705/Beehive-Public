@@ -1,0 +1,38 @@
+ .btn {
+    cursor: pointer;
+    background: #44c4e7;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .Job-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 400px;
+    margin: -140px 0 0 -182px;
+    padding: 40px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  }
+
+
+.Job-form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  width: 400px;
+  margin: -140px 0 0 -182px;
+  padding: 40px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.job-info{
+  font-size: large;
+}

@@ -1,0 +1,77 @@
+/* Footerbar.css */
+/* .footerbar {
+    background-color: rgb(80, 4, 80);
+    min-height: 20px; 
+    display: flex;
+    justify-content: start;
+    align-items: center;
+} */
+.footer-section-padding{
+    padding: 1rem 4rem;
+
+}
+.footer-bar{
+    background-color: lightslategray;
+    /* display: flex;
+    flex-direction: column; */
+    /* position: fixed; */
+    
+    position: relative;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    
+    
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.footer-link-divs{
+    width: 150px;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+}
+
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.footer-link-divs h4{
+    font-size: 16px;
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+}
+
+.footer-link-divs p{
+    font-size: 14px;
+    line-height: 15px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+hr{
+    color: white;
+    width: 100%;
+}
+
+.copyright{
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(255,255,255);
+    font-weight: 600;
+    text-align: center;
+    width:100%;
+}
